@@ -1,0 +1,35 @@
+- As indian, where can you go with what kind of visa where?
+
+- List of Countries that 1. visa not required / 2. allow on arrival 3. not required if schengen 
+4. if UK visa 5. if US visa 6. simple e-visa 7. fuck all visa process 
+
+- v2 for entire world, and also include how many days is visa valid 
+
+http://t.co/OkATOhjq
+scrape from here later > https://www.passportindex.org/comparebyPassport.php?p1=in&fl=&s=yes
+
+first make it only for indians, then make it for the rest of the world 
+
+STEPS
+* Define what is a country 
+    - Name
+    - Image 
+    - Continent / area of world e.g. carribean, central asia 
+    - Fancy > Flag
+* Define realtionship of country with India i.e. 1/2/3/4/5/6/7 visa type 
+* Make decision on how the DB should be made .. whats foreign key? is it two DBs?
+* Populate the DB with 190 countries 
+* Write SQL on how you would get diff 1/2/3 etc results and show them 
+* Find how you would print that query in HTML
+* Design front end 
+* HTML + CSS front end 
+
+COUNTRY 
+------------------------------
+name - string
+# area of world - dropdown  
+image - url 
+relationship with india - dropdown 
+
+
+
