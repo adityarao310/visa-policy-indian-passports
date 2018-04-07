@@ -21,27 +21,13 @@
     </div>
 
     <div class="countries_list">
-        <h3>List of countries where XXXchosen filterXXX</h3>
-        <div class="country">
-            Name - XXXcountry nameXXX<br>
-            <a href="https://wikitravel.org/en/India">XXXRead more on wikitravel</a><br><br>
-        </div>
-        <div class="country">
-            Name - XXXcountry nameXXX<br>
-            <a href="https://wikitravel.org/en/India">XXXRead more on wikitravel</a><br><br>
-        </div>
-        <div class="country">
-            Name - XXXcountry nameXXX<br>
-            <a href="https://wikitravel.org/en/India">XXXRead more on wikitravel</a><br><br>
-        </div>
-        <div class="country">
-            Name - XXXcountry nameXXX<br>
-            <a href="https://wikitravel.org/en/India">XXXRead more on wikitravel</a><br><br>
-        </div>
-        <div class="country">
-            Name - XXXcountry nameXXX<br>
-            <a href="https://wikitravel.org/en/India">XXXRead more on wikitravel</a><br><br>
-        </div>
+        <h3>List of countries where {XXXchosen filterXXX}</h3>
+        {% for country in list7 %}
+            <div class="country">
+                <p>Name - {{ country }} </p>
+                <a href="https://wikitravel.org/en/India">on Wikitravel</a>
+            </div>
+        {% endfor %}
     </div>
 </body>
 </html>
