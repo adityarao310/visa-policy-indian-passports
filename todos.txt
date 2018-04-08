@@ -23,6 +23,12 @@ STEPS
 * Find how you would print that query in HTML
 * Design front end 
 * HTML + CSS front end 
+https://w3layouts.com/preview/?l=/surfhouse-flat-ecommerce-bootstrap-responsive-web-template/
+https://nomadlist.com/
+https://books.makesideproject.com/
+https://github.com/SmileyChris/django-countries
+https://restcountries.eu/
+
 
 COUNTRY 
 ------------------------------
@@ -30,6 +36,7 @@ name - string
 # area of world - dropdown  
 image - url 
 relationship with india - dropdown 
+
 
 
 

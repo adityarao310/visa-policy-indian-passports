@@ -20,6 +20,7 @@ class Country(models.Model):
         default=7,
     )
 
+    country_image = models.ImageField(upload_to='media', default='../default.jpg')
 
     def __str__(self):
         return self.country_name
