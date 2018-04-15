@@ -7,27 +7,28 @@
 </head>
 <body>
     <h1>Visa policies for Indian citizens</h1>
-    <h3>Choose a category to see which countries in the list</h3>
+    <h3>Choose a category</h3>
     <div>
         <ul>
-            <li>visa not required</li>
-            <li>visa is given on arrival</li>
-            <li>visa ot required if you have schengen visa</li>
-            <li>visa is not required if you have UK visa</li>
-            <li>visa not required if you have UK visa</li>
-            <li>visa is simple e-visa application</li>
-            <li>visa is fuck all difficult process</li>
+            <li><a href="">Visa not required</a></li>
+            <li><a href="">Visa on arrival</a></li>
+            <li><a href="">Visa not required if you have US visa</a></li>
+            <li><a href="">Visa is not required if you have UK visa</a></li>
+            <li><a href="">Visa is not required if you have Shengen visa</a></li>
+            <li><a href="">Simple e-Visa application</a></li>
+            <li><a href="">Shengen visa country</a></li>
+            <li><a href="">Fuck all visa process</a></li>
         </ul>
     </div>
 
     <div class="countries_list">
-        <h3>List of countries where {XXXchosen filterXXX}</h3>
+        <h3>List of countries which allow visa on arrival - {{ number }}</h3>
         {% for country in list7 %}
             <div class="country">
-                <p>Name - {{ country }} </p>
-                <a href="https://wikitravel.org/en/India">on Wikitravel</a>
+                <a href="https://wikitravel.org/en/India">{{ country }}</a>
             </div>
         {% endfor %}
     </div>
+    
 </body>
 </html>

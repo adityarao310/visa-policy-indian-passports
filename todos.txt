@@ -28,6 +28,8 @@ https://nomadlist.com/
 https://books.makesideproject.com/
 https://github.com/SmileyChris/django-countries
 https://restcountries.eu/
+https://fabian7593.github.io/CountryAPI/ 
+https://www.ncdc.noaa.gov/IPS/mcdw/mcdw.html?_finish=0.3525847696783857 
 
 
 COUNTRY 
@@ -36,6 +38,11 @@ name - string
 # area of world - dropdown  
 image - url 
 relationship with india - dropdown 
+
+
+SCRAPING 
+-------------------------------
+
 
 
 
